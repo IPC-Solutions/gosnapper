@@ -348,7 +348,7 @@ func (rs *GoSnapper) Run() {
 					continue
 				}
 				rs.outputMutex.Lock()
-				fmt.Fprintf(os.Stderr, "%s", strings.TrimSuffix(line, "\n"))
+				fmt.Fprintf(os.Stderr, "%s", line)
 				rs.outputMutex.Unlock()
 			}
 
