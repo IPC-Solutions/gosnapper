@@ -21,7 +21,7 @@ Usage: gosnapper [-d DIR] [-j COUNT] archive [-- [TARSNAP OPTIONS]]
 1. Clone the repository
 2. Build the binary:
    ```
-   cd gosnapper
+   cd /path/to/gosnapper
    go build -o gosnapper ./cmd/gosnapper
    ```
 3. Move the binary to your PATH
