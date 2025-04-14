@@ -1,3 +1,3 @@
-module github.com/Matthew-IPCSolutions/gosnapper
+module github.com/matthewknill/gosnapper
 
 go 1.20
