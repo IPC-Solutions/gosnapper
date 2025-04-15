@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/matthewknill/gosnapper"
+	"github.com/IPC-Solutions/gosnapper"
 )
 
 func main() {
